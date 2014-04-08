@@ -11,11 +11,17 @@ Part List
 
 Power Consumption
 -----------------
+*In active mode:*
+Component | Current | Power @ 3V
+--------- | ------- | ---------- 
+MCU       |  290 μA | 870 μW
+LCD       |   30 μA |  90 μW
+Total     |  320 μA | 960 μW
 
-Component            | Power | Current | Voltage
--------------------- | ----- | ------- | -------
-MCU                  | 870uW |  290 uA |    3V
-MCU (LowPowerMode)   | 240uW |   80 uA |    3V
-LCD                  |  90uW |   30 uA |    3V
-Total                | 960uW |  320 uA |    3V
-Total (LowPowerMode) | 330uW |  110 uA |    3V
+*In low power mode:*
+Component | Current | Power @ 3V
+--------- | ------- | ---------- 
+MCU       |   80 μA | 240 μW
+LCD       |   30 μA |  90 μW
+Total     |  110 μA | 330 μW
+
