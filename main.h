@@ -2,7 +2,7 @@
 #define MAIN_H_
 
 // How often the heartbeat is updated (in seconds).
-#define QRS_DETECTING_PERIOD 10
+#define QRS_DETECTING_PERIOD 2
 
 // How often the display is refreshed (in Hz).
 #define DISPLAY_REFRESH_FREQUENCY 1
